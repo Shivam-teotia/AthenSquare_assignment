@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    width: 50vmax;
+    align-items: center;
+    justify-content: center;
+}
+.main-div>h1{
+    font-size: 4vmax;
+    text-align: center;
+}
+.main-div>p{
+    text-align: center;
+    color: rgb(151, 145, 145);
+}
+.main-div > button{
+    background-color: beige;
+    border-radius: 0.5vmax;
+    border: none;
+    padding: 1vmax;
+    font-weight: 600;
+}
